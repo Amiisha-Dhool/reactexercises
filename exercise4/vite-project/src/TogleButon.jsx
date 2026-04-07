@@ -13,7 +13,7 @@ const TogleButon = ()=>{
         <>
        {turnON && <h1>the buton is on</h1>  }  
         {!turnON && <h1>the buton is of</h1>  }  
-        <button  onClick={togle}>  { !turnON ? 'on' : "of"}</button>
+        <button  onClick={togle}> turn { !turnON ? 'on' : "of"}</button>
         </>
     )
 }
