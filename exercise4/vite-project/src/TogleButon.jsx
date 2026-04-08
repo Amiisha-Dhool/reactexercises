@@ -7,7 +7,7 @@ const TogleButon = ()=>{
 
     const togle =()=>{
     setTurnOn(!turnON)
-    }
+    } 
 
     return(
         <>
