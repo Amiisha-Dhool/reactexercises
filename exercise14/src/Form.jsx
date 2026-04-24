@@ -123,7 +123,7 @@ function reducer(state, action) {
         </button>
       </div>
     );
-  }
+  } 
 }
 
 
